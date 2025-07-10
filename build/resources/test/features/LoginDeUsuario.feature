@@ -1,4 +1,6 @@
-Feature: Login de usuario en Buggy Cars Rating
+Feature: Yo como usuario
+         quiero logearme en la pagina buggy cars
+         para poder acceder a los servicios de la pagina
 
   Scenario: Login exitoso con credenciales validas
     Given que un usuario esta en la pagina de inicio de Buggy Cars Rating

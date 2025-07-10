@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Login de usuario en Buggy Cars Rating" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-07-09T21:52:50.911Z" hostname="DESKTOP-DJA5TMI" time="11.714">
+<testsuite name="Yo como usuario" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-07-10T01:12:18.263Z" hostname="DESKTOP-DJA5TMI" time="11.958">
   <properties/>
-  <testcase name="Login exitoso con credenciales validas" classname="Login de usuario en Buggy Cars Rating" time="7.315"/>
-  <testcase name="Login fallido con credenciales invalidas" classname="Login de usuario en Buggy Cars Rating" time="2.073"/>
-  <testcase name="Login fallido con campo de usuario vacio" classname="Login de usuario en Buggy Cars Rating" time="0.765"/>
-  <testcase name="Login fallido con campo de contrasena vacio" classname="Login de usuario en Buggy Cars Rating" time="0.464"/>
-  <testcase name="Login fallido con ambos campos vacios" classname="Login de usuario en Buggy Cars Rating" time="1.097"/>
+  <testcase name="Login exitoso con credenciales validas" classname="Yo como usuario" time="8.697"/>
+  <testcase name="Login fallido con credenciales invalidas" classname="Yo como usuario" time="1.262"/>
+  <testcase name="Login fallido con campo de usuario vacio" classname="Yo como usuario" time="0.471"/>
+  <testcase name="Login fallido con campo de contrasena vacio" classname="Yo como usuario" time="1.112"/>
+  <testcase name="Login fallido con ambos campos vacios" classname="Yo como usuario" time="0.415"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[[Test worker] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
@@ -13,13 +13,13 @@
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
    |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
 
-Login exitoso con credenciales validas(login-de-usuario-en-buggy-cars-rating;login-exitoso-con-credenciales-validas)
+Login exitoso con credenciales validas(yo-como-usuario;login-exitoso-con-credenciales-validas)
 --------------------------------------------------------------------------------
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Starting Chrome driver instance with capabilities:
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors, \n                   --disa..., --disable-default-apps, --disable-extensions-file-a..., \n                   --inco..., --disable-infobars,--disabl..., --remote-allow-origins=*], extensions: []}}
-jul. 09, 2025 4:52:53 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+jul. 09, 2025 8:12:21 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 ADVERTENCIA: Unable to find CDP implementation matching 138
-jul. 09, 2025 4:52:53 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+jul. 09, 2025 8:12:21 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 ADVERTENCIA: Unable to find version of CDP to use for 138.0.7204.94. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 [Test worker] INFO  - ?[92m
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
@@ -35,7 +35,7 @@ Login exitoso con credenciales validas
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
    |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
 
-Login fallido con credenciales invalidas(login-de-usuario-en-buggy-cars-rating;login-fallido-con-credenciales-invalidas)
+Login fallido con credenciales invalidas(yo-como-usuario;login-fallido-con-credenciales-invalidas)
 --------------------------------------------------------------------------------
 [Test worker] INFO  - ?[92m
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
@@ -51,7 +51,7 @@ Login fallido con credenciales invalidas
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
    |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
 
-Login fallido con campo de usuario vacio(login-de-usuario-en-buggy-cars-rating;login-fallido-con-campo-de-usuario-vacio)
+Login fallido con campo de usuario vacio(yo-como-usuario;login-fallido-con-campo-de-usuario-vacio)
 --------------------------------------------------------------------------------
 [Test worker] INFO  - ?[92m
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
@@ -67,7 +67,7 @@ Login fallido con campo de usuario vacio
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
    |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
 
-Login fallido con campo de contrasena vacio(login-de-usuario-en-buggy-cars-rating;login-fallido-con-campo-de-contrasena-vacio)
+Login fallido con campo de contrasena vacio(yo-como-usuario;login-fallido-con-campo-de-contrasena-vacio)
 --------------------------------------------------------------------------------
 [Test worker] INFO  - ?[92m
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
@@ -83,7 +83,7 @@ Login fallido con campo de contrasena vacio
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
    |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
 
-Login fallido con ambos campos vacios(login-de-usuario-en-buggy-cars-rating;login-fallido-con-ambos-campos-vacios)
+Login fallido con ambos campos vacios(yo-como-usuario;login-fallido-con-ambos-campos-vacios)
 --------------------------------------------------------------------------------
 [Test worker] INFO  - ?[92m
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
